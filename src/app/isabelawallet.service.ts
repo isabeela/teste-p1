@@ -14,6 +14,11 @@ interface Response {
       rate: string;
       rate_float: number;
     };
+    EUR: {
+      sumbol: string;
+      rate: string;
+      rate_float: number;
+    };
   };
 }
 

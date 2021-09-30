@@ -1,27 +1,3 @@
-<div class="container">
-  <div class="box-bitcoin">
-    Valor do bitcoin em dólares: $
-    <span
-      [innerHTML]="isabelawalletService.currentResponse.bpi.USD.symbol"
-    ></span
-    >{{ isabelawalletService.currentResponse.bpi.USD.rate }}
-    <div>
-      Valor do bitcoin em reais: R$
-      <span
-        [innerHTML]="isabelawalletService.currentResponse.bpi.BRL.symbol"
-      ></span
-      >{{ isabelawalletService.currentResponse.bpi.BRL.rate }}
-    </div>
-    <table style="border=1">
-      <tr>
-        <th>Data / hora</th>
-        <th>USD</th>
-        <th>BRL</th>
-      </tr>
-      <tr *ngFor="let response of this.isabelawalletService.updateList">
-        <td>$ {{ response.bpi.USD.rate }}</td>
-        <td>R$ {{ response.bpi.BRL.rate }}</td>
-      </tr>
-    </table>
-  </div>
-</div>
+<p>
+isabelacurrency works!
+</p>
